@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+   <!--Google Analytics-->
+   <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QM0EZB9662"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-QM0EZB9662');
+   </script>
+   
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/assets/styles/reset.css">
+   <link rel="stylesheet" href="/assets/styles/root.css">
    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon">
    <title>Way Race</title>
 </head>
+
 <body>
-   
+   <header class="header-temp">
+      <div class="container-header">
+         <h1 class="title">Stopwatch</h1>
+         <h2 class="name-business">Way Race</h2>
+      </div>
+   </header>
+   <main>
+      <div class="container-stopwatch">
+         <p id="timer">00:00:00:000</p>
+         <button id="startStop">Start/Stop</button>
+         <button id="reset">Reset</button>
+      </div>
+   </main>
 </body>
+
 </html>

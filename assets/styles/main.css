@@ -1,0 +1,22 @@
+.header-temp{
+   padding: 3rem;
+   margin: auto;
+}
+
+.container-header{
+   width: 360px;
+}
+
+.title{
+   font-size: 4rem;
+   font-weight: 700;
+   text-shadow: 4px 2px 0px #000000, 5px 0px 10px #000000;
+}
+
+.name-business{
+   color: var(--highlights);
+   font-size: 1.2rem;
+   margin-top: 0.15rem;
+   text-align: right;
+   text-shadow: 4px 2px 0px #000000, 5px 0px 10px #000000;
+}
