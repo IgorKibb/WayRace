@@ -20,15 +20,17 @@
 
 #timer {
    font-family: var(--relogio-fonte);
-   font-size: 3.2rem;
+   font-size: 3.3rem;
    padding: 1.5rem;
-   transform: translateZ(0);
-   backface-visibility: hidden;
-   perspective: 1000;
+}
+
+.milliseconds {
+   font-size: 0.8rem;
 }
 
 #startStop,
-#reset {
+#reset,
+#lap {
    border-radius: 0.6rem;
    background-color: var(--button-collor);
    color: var(--texto-botao);
@@ -38,6 +40,12 @@
    margin: 0.2rem 0rem 0.5rem 0.3rem;
    /*text-shadow: 1px 0 #000000, -2px 0 #000000, 0 1px #000000, 0 -2px #000000,
       1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;*/
+}
+
+#laps{
+   padding-top: 1.2rem;
+   font-size: 1.3rem;
+   font-weight: 200;
 }
 
 .description {
