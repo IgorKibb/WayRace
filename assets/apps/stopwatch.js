@@ -30,7 +30,8 @@ function timeToString(time) {
 
 function print(txt) {
    let parts = txt.split(":");
-   let formattedTxt = `${parts[0]}:${parts[1]}:${parts[2]}:<span class="milliseconds">${parts[3]}</span>`;
+   let formattedMS = parts[3].slice(0, 2);
+   let formattedTxt = `${parts[0]}:${parts[1]}:${parts[2]}:<span class="milliseconds">${formattedMS}</span>`;
    document.getElementById("timer").innerHTML = formattedTxt;
 }
 

@@ -19,6 +19,10 @@
    text-shadow: 4px 2px 0px #000000, 5px 0px 10px #000000;
 }
 
+.container-stopwatch {
+   margin-top: 4em;
+}
+
 #timer {
    font-family: var(--relogio-fonte);
    font-size: 3.5em;
@@ -31,18 +35,26 @@
 #startStop,
 #reset,
 #lap {
-   border-radius: 0.6em;
-   background-color: var(--button-collor);
+   border-radius: 0.2em;
+   border-style: none;
+   border-color: var(--highlights);
+   box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+   -webkit-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+   -moz-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+   background-color: var(--highlights);
    color: var(--texto-botao);
-   font-size: 1.2em;
-   font-weight: 700;
+   font-size: 1.1em;
+   font-weight: 400;
    padding: 0.3rem 0.5em;
    margin: 0.2em 0em 0.5em 0.3em;
    /*text-shadow: 1px 0 #000000, -2px 0 #000000, 0 1px #000000, 0 -2px #000000,
       1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;*/
 }
+#reset{
+   background-color: var(--reset-button);
+}
 
-#laps{
+#laps {
    padding-top: 1.2rem;
    font-size: 1.3rem;
    font-weight: 200;
@@ -73,4 +85,51 @@
 .text-footer {
    font-size: 0.8em;
    color: var(--highlights);
+}
+
+/*media screen de tablet*/
+@media screen and (min-width: 750px){
+   .title {
+      font-size: 4.5em;
+   }
+   .name-business {
+      font-size: 2.2em;
+   }
+   #timer {
+      font-size: 6.5em;
+   }
+   
+   .milliseconds {
+      font-size: 0.4em;
+   }
+   
+   #startStop,
+   #reset,
+   #lap {
+      font-size: 2.1em;
+      font-weight: 400;
+   }
+   
+   #laps {
+      font-size: 2.3em;
+   }
+   
+   .title-description {
+      font-size: 2.6em;
+   }
+   
+   .text-description {
+      font-size: 1.8em;
+   }
+   
+   .text-footer {
+      font-size: 1.2em;
+   }
+}
+
+/*media screen desktop*/
+@media screen and (min-width: 1200px){
+   #timer {
+      font-size: 8.5em;
+   }
 }

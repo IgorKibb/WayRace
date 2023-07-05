@@ -11,9 +11,10 @@
    --background-image: linear-gradient(to right top, #042822, #05241e, #052019, #031c15, #001911);
    /*--background: #042822;*/
    --texto-cor: #EFFCF9;
-   --highlights: #00A98E;
-   --button-collor: #00A98D;
-   --texto-botao: #042822;
+   --highlights: #00C6B8;
+   --button-collor: #DF9F1F;
+   --texto-botao: #062b47;
+   --reset-button: #FA7283;
    --relogio-fonte: 'Chakra Petch', sans-serif;
    --texto-corpo: 'Montserrat', sans-serif;
 }
