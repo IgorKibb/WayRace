@@ -1,22 +1,68 @@
-.header-temp{
-   padding: 3rem;
+.header-temp {
+   padding: 3.6rem;
    margin: auto;
 }
 
-.container-header{
-   width: 360px;
-}
 
-.title{
-   font-size: 4rem;
+.title {
+   font-size: 2rem;
    font-weight: 700;
    text-shadow: 4px 2px 0px #000000, 5px 0px 10px #000000;
 }
 
-.name-business{
+.name-business {
    color: var(--highlights);
    font-size: 1.2rem;
    margin-top: 0.15rem;
    text-align: right;
    text-shadow: 4px 2px 0px #000000, 5px 0px 10px #000000;
+}
+
+#timer {
+   font-family: var(--relogio-fonte);
+   font-size: 3.2rem;
+   padding: 1.5rem;
+   transform: translateZ(0);
+   backface-visibility: hidden;
+   perspective: 1000;
+}
+
+#startStop,
+#reset {
+   border-radius: 0.6rem;
+   background-color: var(--button-collor);
+   color: var(--texto-botao);
+   font-size: 1.2rem;
+   font-weight: 700;
+   padding: 0.3rem 0.5rem;
+   margin: 0.2rem 0rem 0.5rem 0.3rem;
+   /*text-shadow: 1px 0 #000000, -2px 0 #000000, 0 1px #000000, 0 -2px #000000,
+      1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;*/
+}
+
+.description {
+   width: 90%;
+   margin: auto;
+   padding-top: 2rem;
+}
+
+.title-description {
+   padding: 1.5rem;
+   font-size: 1.3rem;
+   font-weight: 600;
+}
+
+.text-description {
+   font-size: 0.9rem;
+   line-height: 1.2rem;
+}
+
+.footer {
+   padding-top: 2rem;
+   padding-bottom: 1.2rem;
+}
+
+.text-footer {
+   font-size: 0.7rem;
+   color: var(--highlights);
 }
