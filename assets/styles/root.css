@@ -18,7 +18,6 @@
    --texto-corpo: 'Montserrat', sans-serif;
 }
 
-
 body{
    align-items: center;
    text-align: center;
@@ -28,5 +27,4 @@ body{
    background-repeat: no-repeat;
    font-family: var(--texto-corpo);
    color: var(--texto-cor);
-   height: 100vh;
 }
