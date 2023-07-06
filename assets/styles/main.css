@@ -77,6 +77,29 @@
    line-height: 1.2em;
 }
 
+.use-tutorial{
+   margin-top: 3em;
+}
+
+.title-article{
+   font-size: 1.2em;
+   font-weight: 600;
+   margin-bottom: 1em;
+}
+.how-to-use{
+   list-style: circle;
+   margin: 0em 1em 0em 1em;
+}
+
+.steps{
+   text-align: left;
+   margin: 0em 2em 1em 2em;
+}
+
+.title-list{
+   font-weight: 600;
+}
+
 .footer {
    padding-top: 2.5em;
    padding-bottom: 1.2em;
