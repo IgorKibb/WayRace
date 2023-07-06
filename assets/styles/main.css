@@ -98,6 +98,15 @@
 
 .title-list{
    font-weight: 600;
+   color: var(--texto-botao);
+   background-color: var(--highlights);
+   border-radius: 0.2em;
+   padding: 0.2em 0.2em 0.2em 0.2em;
+   width: fit-content;
+}
+
+.reset-step{
+   background-color: var(--reset-button);
 }
 
 .footer {
