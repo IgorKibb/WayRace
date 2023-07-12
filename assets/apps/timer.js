@@ -11,7 +11,7 @@ const resetButton = document.querySelector('#reset');
 const workTimeInput = document.querySelector('#workTime');
 const breakTimeInput = document.querySelector('#breakTime');
 const cyclesInput = document.querySelector('#cycles');
-const alarmSound = new Audio('alarm.mp3');
+const alarmSound = new Audio('/assets/audio/alarm.wav');
 
 startButton.addEventListener('click', () => {
    if (!isRunning) {
