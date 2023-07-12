@@ -1,3 +1,6 @@
+/*/header*/
+@import url('/assets/styles/header.css');
+
 /*main*/
 @import url('/assets/styles/main.css');
 
@@ -7,11 +10,16 @@
 /*Body Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
 
+/*Pomodoro*/
+/*timer*/
+@import url('/assets/styles/timer.css');
 :root{
    --background-image: linear-gradient(to right top, #042822, #05241e, #052019, #031c15, #001911);
    /*--background: #042822;*/
    --texto-cor: #EFFCF9;
    --highlights: #00C6B8;
+   --logo-color: #82daf7;
+   --header-menu: #062d49;
    --button-collor: #DF9F1F;
    --texto-botao: #062b47;
    --reset-button: #FA7283;

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description"
+      content="Boost your focus and productivity with our Pomodoro program. Join our 'Study with Me' community and see the difference today!">
+   <meta name="keywords" content="stopwatch, timer, online stopwatch, free stopwatch, workout timer, cooking timer">
+   <meta name="robots" content="index">
+   <link rel="stylesheet" href="/assets/styles/reset.css">
+   <link rel="stylesheet" href="/assets/styles/root.css">
+   <link rel="shortcut icon" href="/assets/favicon/favic.ico" type="image/x-icon">
+   <title>Timer/Pomodoro</title>
+</head>
+
+<body>
+   <header class="header-container">
+      <nav aria-label="Abrir Menu" class="navbar">
+         <div class="logo-container">
+            <img class="logo-header" src="/assets/img/logo.png" alt="logo way race">
+            <a href="index.html" class="name-header">Way Race</a>
+         </div>
+         <ul class="nav-menu">
+            <li class="nav-item"><a class="nav-link" href="https://wayrace.com">Stopwatch</a></li>
+            <li class="nav-item"><a class="nav-link" href="/pages/timer-pomodoro.html">Timer / Pomodoro</a></li>
+         </ul>
+         <div class="hamburguer">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+         </div>
+      </nav>
+   </header>
+   <div class="header-temp">
+      <div class="container-header">
+         <h1 class="title">Pomodoro Timer</h1>
+         <div class="container-name">
+            <h2 class="name-business">Way Race</h2>
+            <img src="/assets/img/logo-shadow.png" class="logo-name-business active">
+         </div>
+      </div>
+   </div>
+   <div id="pomodoro">25:00</div>
+   <div class="buttons">
+      <button id="start">Start</button>
+      <button id="again">Reset</button>
+   </div>
+   <div class="label-input">
+      <label for="workTime">Work Time (minutes):</label>
+      <input type="number" id="workTime" value="25">
+   </div>
+   <div class="label-input">
+      <label for="breakTime">Break Time (minutes):</label>
+      <input type="number" id="breakTime" value="5">
+   </div>
+   <div class="label-input">
+      <label for="cycles">Cycles:</label>
+      <input type="number" id="cycles" value="4">
+   </div>
+   <section class="description-pomodoro">
+      <h2 class="title-description-pomodoro">Boost Your Productivity with the Pomodoro Technique!</h2>
+      <p class="text-description-pomodoro">
+         Are you struggling to stay focused and get things done? Whether you're studying for exams or 
+         working on a project, the Pomodoro Technique can help you boost your productivity. 
+         This time management method breaks your work into manageable intervals, separated by short 
+         breaks. For example, you could study for 25 minutes, then take a 5-minute break before 
+         starting another 25-minute study session. The same technique can be applied to work tasks, 
+         helping you stay focused and productive throughout the day. With our Pomodoro program, 
+         you can easily implement this technique and see a boost in your focus and productivity.
+      </p>
+   </section>
+
+   <footer class="footer">
+      <h3 class="text-footer">© 2023 Igor Fonseca</h3>
+   </footer>
+
+   <script src="/assets/apps/responsiveMenu.js"></script>
+   <script src="/assets/apps/timer.js"></script>
+</body>
+
+</html>

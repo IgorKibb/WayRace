@@ -4,7 +4,7 @@
 <head>
    <!--Google Analytics-->
    <!-- Google tag (gtag.js) -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QM0EZB9662"></script>
+   <!--<script async src="https://www.googletagmanager.com/gtag/js?id=G-QM0EZB9662"></script>
    <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() { dataLayer.push(arguments); }
@@ -24,21 +24,40 @@
    <meta name="robots" content="index">
    <link rel="stylesheet" href="/assets/styles/reset.css">
    <link rel="stylesheet" href="/assets/styles/root.css">
-   <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon">
+   <link rel="shortcut icon" href="/assets/favicon/favic.ico" type="image/x-icon">
    <title>Way Race</title>
 </head>
 
 <body>
-   <header class="header-temp">
+   <header class="header-container">
+      <nav aria-label="Abrir Menu" class="navbar">
+         <div class="logo-container">
+            <img class="logo-header" src="/assets/img/logo.png" alt="logo way race">
+            <a href="index.html" class="name-header">Way Race</a>
+         </div>
+            <ul class="nav-menu">
+               <li class="nav-item"><a class="nav-link" href="https://wayrace.com">Stopwatch</a></li>
+               <li class="nav-item"><a class="nav-link" href="/pages/timer-pomodoro.html">Timer / Pomodoro</a></li>
+            </ul>
+            <div class="hamburguer">
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
+            </div>
+      </nav>
+   </header>
+   <div class="header-temp">
       <div class="container-header">
          <h1 class="title">Stopwatch</h1>
-         <h2 class="name-business">Way Race</h2>
+         <div class="container-name">
+            <h2 class="name-business">Way Race</h2>
+            <img src="/assets/img/logo-shadow.png" class="logo-name-business active">
+         </div>
       </div>
-   </header>
+   </div>
    <main>
       <div class="container-stopwatch">
          <p id="timer">00:00:00:000</p>
-         </p>
          <button id="startStop">Start/Stop</button>
          <button id="lap">Lap</button>
          <button id="reset">Reset</button>
@@ -82,10 +101,11 @@
       </article>
    </main>
    <footer class="footer">
-      <h3 class="text-footer">© 2023 Threads Meta</h3>
+      <h3 class="text-footer">© 2023 Igor Fonseca</h3>
    </footer>
 
    <script src="/assets/apps/stopwatch.js"></script>
+   <script src="/assets/apps/responsiveMenu.js"></script>
 </body>
 
 </html>
