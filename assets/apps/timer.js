@@ -5,9 +5,9 @@ let isBreak = false;
 let interval;
 let cyclesLeft;
 
-const timerElement = document.querySelector('#timer');
+const timerElement = document.querySelector('#pomodoro');
 const startButton = document.querySelector('#start');
-const resetButton = document.querySelector('#reset');
+const resetButton = document.querySelector('#again');
 const workTimeInput = document.querySelector('#workTime');
 const breakTimeInput = document.querySelector('#breakTime');
 const cyclesInput = document.querySelector('#cycles');
