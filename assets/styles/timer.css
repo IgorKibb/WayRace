@@ -1,9 +1,9 @@
-#pomodoro{
+#pomodoro {
    font-family: var(--relogio-fonte);
    font-size: 3.5em;
 }
 
-.buttons{
+.buttons {
    display: flex;
    flex-direction: row;
    gap: 0.5em;
@@ -11,7 +11,8 @@
    margin-bottom: 1.4em;
 }
 
-#start, #again{
+#start,
+#again {
    border-radius: 0.2em;
    border-style: none;
    border-color: var(--highlights);
@@ -26,12 +27,12 @@
    margin: 0.2em 0em 0.5em 0.3em;
 }
 
-#again{
+#again {
    background-color: var(--reset-button);
 }
 
 
-.label-input{
+.label-input {
    flex-wrap: wrap;
    font-size: 1.2em;
    line-height: 1.2em;
@@ -39,26 +40,115 @@
    width: 50%;
    padding: 0.2em;
 }
-#workTime, #breakTime, #cycles{
+
+#workTime,
+#breakTime,
+#cycles {
    font-weight: 700;
    height: 1.7em;
    border-radius: 0.4em;
    text-align: center;
 }
 
-.description-pomodoro{
+.description-pomodoro {
    width: 90%;
    margin: auto;
    padding-top: 2em;
 }
 
-.title-description-pomodoro{
+.title-description-pomodoro {
    margin: 1.5em;
    font-size: 1.6em;
    font-weight: 600;
 }
 
-.text-description-pomodoro{
+.text-description-pomodoro {
    font-size: 1.1em;
    line-height: 1.2em;
+}
+
+.use-tutorial-pomodoro {
+   margin-top: 3em;
+}
+
+.title-article-pomodoro {
+   font-size: 1.2em;
+   font-weight: 600;
+   margin-bottom: 1em;
+}
+
+.how-to-use-pomodoro {
+   list-style: circle;
+   margin: 0em 1em 0em 1em;
+}
+
+.steps-pomodoro {
+   text-align: left;
+   margin: 0em 2em 1em 2em;
+}
+
+.title-list-pomodoro {
+   font-weight: 600;
+   color: var(--texto-botao);
+   background-color: var(--highlights);
+   border-radius: 0.2em;
+   padding: 0.2em 0.2em 0.2em 0.2em;
+   width: fit-content;
+}
+
+
+/*media screen de tablet*/
+@media screen and (min-width: 750px) {
+   #pomodoro {
+      font-size: 5.5em;
+   }
+
+   #start,
+   #again {
+      font-size: 2.1em;
+      font-weight: 400;
+   }
+
+   .title-description-pomodoro {
+      font-size: 2.6em;
+   }
+
+   .text-description-pomodoro {
+      font-size: 1.8em;
+   }
+
+   .label-input {
+      font-size: 1.5em;
+      line-height: 1.3em;
+      width: 30%;
+   }
+
+   #workTime,
+   #breakTime,
+   #cycles {
+      font-size: 16px;
+      font-weight: 700;
+      height: 1.9em;
+      border-radius: 0.4em;
+      text-align: center;
+   }
+}
+
+/*media screen desktop*/
+@media screen and (min-width: 1200px) {
+   #pomodoro {
+      font-size: 8.5em;
+   }
+
+   .label-input {
+      font-size: 1.6em;
+      line-height: 1.4em;
+      width: 20%;
+   }
+
+   #workTime,
+   #breakTime,
+   #cycles {
+      font-size: 18px;
+   }
 }
