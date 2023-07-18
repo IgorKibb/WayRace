@@ -8,7 +8,7 @@
 .title {
    font-size: 2.5em;
    font-weight: 700;
-   text-shadow: 4px 2px 0px #000000, 5px 0px 10px #000000;
+   text-shadow: 4px 2px 0px #8C8D8E, 5px 0px 10px #8C8D8E;
 }
 
 .name-business {
@@ -124,14 +124,43 @@
    background-color: var(--reset-button);
 }
 
+.line{
+   display: block;
+   width: 85%;
+   height: 1px;
+   margin: 15px auto;
+   background-color: var(--texto-cor);
+}
+
+.howProdutive{
+   width: 90%;
+   margin: auto;
+   text-align: justify;
+   font-size: 1.1em;
+}
+
+.titleP{
+   margin-top: 25px;
+   margin-bottom: 10px;
+   font-weight: 600;
+}
+
+.titleArticle{
+  font-size: 1.3em;
+  font-weight: 600;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;;
+}
+
 .footer {
    padding-top: 2.5em;
    padding-bottom: 1.2em;
 }
 
 .text-footer {
-   font-size: 0.8em;
-   color: var(--highlights);
+   font-size: 0.6em;
+   color: var(--texto-cor);
 }
 
 /*media screen de tablet*/
@@ -170,7 +199,7 @@
    }
    
    .text-footer {
-      font-size: 1.2em;
+      font-size: 0.8em;
    }
 }
 

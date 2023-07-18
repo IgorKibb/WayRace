@@ -16,7 +16,7 @@
 :root{
    --background-image: linear-gradient(to right top, #042822, #05241e, #052019, #031c15, #001911);
    /*--background: #042822;*/
-   --texto-cor: #EFFCF9;
+   --texto-cor: #062d49;
    --highlights: #00C6B8;
    --logo-color: #82daf7;
    --header-menu: #062d49;
@@ -32,7 +32,7 @@ body{
    text-align: center;
    display: flex;
    flex-direction: column;
-   background-image: linear-gradient(to bottom, #062b47, #053552, #043f5d, #024a68, #005572);
+   background-image: linear-gradient(to bottom, #C1C2C3, #f8f9fa);
    background-repeat: no-repeat;
    font-family: var(--texto-corpo);
    color: var(--texto-cor);
